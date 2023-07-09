@@ -1,0 +1,172 @@
+body {
+    padding: 40px;
+    background: #E5E5E5;
+   
+}
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    background: #FFFFFF;
+    width: 1200px;
+    margin: auto;
+}
+
+.main-content {
+    padding: 80px 40px 80px 88px;
+}
+
+.my-photo {
+    margin-bottom: 40px;
+}
+
+.about-me {
+    margin-bottom: 40px;
+    }
+
+.my-name {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        margin-bottom: 8px;
+}
+
+ol>li {
+    list-style-type: none;
+    counter-increment: item;
+}
+
+ol>li:before {
+    content: counter(item) ". ";
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.work-experiense {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.name-education {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #6096FF;
+        margin-bottom: 8px;
+}
+
+.name-spec {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        margin-bottom: 8px;
+}
+
+.time-education {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 8px;
+}
+
+.sidebar {
+    background: #DFEEFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contacts {
+        width: 250px;
+        height: 83px;
+        left: 80px;
+        top: 490px;
+        padding-left: 49px;
+        margin-bottom: 41px;
+}
+
+
+.contact {
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #161D2A;
+    margin-bottom: 6px;
+}
+
+.tech-skils {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161D2A;
+    padding-left: 49px;
+    margin-bottom: 39px;
+}
+
+.skills {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #161D2A;
+    margin-bottom: 8px;  
+}
+
+.soft-skils {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161D2A;
+    padding-left: 49px;
+}
+    
+
+.my-summary {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+}
+
+.contacts-item{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #161D2A;
+}
+
+.contacts-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #2979FF;
+}
+
+
+.footer {
+    flex: 0 0 auto;
+    padding: 1rem;
+    background: #e6ffe6;
+   
+}
+
