@@ -1,1 +1,1 @@
-# rsschool-cv2
+https://Iprit68.github.io/rsschool-cv2/
