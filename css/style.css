@@ -5,9 +5,9 @@ body {
 }
 
 header {
-    height: 90px;
+    height: 600px;
     width: 1440px;
-    background-color: #000;
+background-image: url(../img/Welcome.png);
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,17 @@ header {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.header-menu__item {
+    display: inline-block;
+    margin-right: 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+}
+ 
 
 
 img {
@@ -34,6 +45,8 @@ img {
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 0.6px; 
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 .header-icon {
@@ -49,7 +62,7 @@ img {
     position: absolute;
     top: 15px;
     right: 88px;
-    background-color: #000;
+    background-color: #0e030300;
     padding: 10px;
     }
 
@@ -74,14 +87,16 @@ img {
 
 }
 
-
-
-
-
 .black-rectangle {
     background-color: #000;
     padding: 10px;
 }
+
+main {
+    width: 1440px;
+    height: 900px;
+}
+
 
 .main-title {
     margin: 0;
@@ -108,7 +123,59 @@ nav a {
     color: #fff;
 }
 
-/* Стилизация при наведении курсора на пункты меню */
 nav a:hover {
     color: #ffcc00;
 }
+
+/* .about-section {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+
+.about-title{
+    color: #0C0C0E;
+        font-family: Forum;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        margin: 20px 667px;
+}
+
+.about-line {
+    width: 50px;
+        height: 1px;
+        background-color: black;
+        flex-shrink: 0;
+        position: relative;
+        margin-left: 695px;
+        margin-bottom: 20px;
+}
+
+.about-text {
+    color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        line-height: 40px;
+        margin-top: 40px;
+    }
+      .image-container {
+            display: flex;
+        }
+    
+        .about-image{
+            width: 450px;
+            height: 550px;
+            margin-right: 25px;
+            margin-left: 20px;
+            /* Добавляем небольшой отступ между картинками */
+        }
+    
+        Убираем отступ после последней картинки
+        .image:last-child {
+            margin-right: 0;
+        } 
