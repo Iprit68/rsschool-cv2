@@ -127,11 +127,12 @@ nav a:hover {
     color: #ffcc00;
 }
 
-/* .about-section {
+.about {
     position: relative;
     max-width: 1440px;
+    max-height: 837px;
     margin: 0 auto;
-} */
+}
 
 .about-title{
     color: #0C0C0E;
@@ -179,3 +180,133 @@ nav a:hover {
         .image:last-child {
             margin-right: 0;
         } 
+
+         .buttons-container {
+                      display: flex;
+                      justify-content: center;
+                      margin-top: 40px;
+          }
+        
+                  .button {
+                      width: 26px;
+                      /* Двойной радиус для диаметра */
+                      height: 26px;
+                      /* Двойной радиус для диаметра */
+                      border-radius: 16px;
+                      /* Радиус круглых кнопок */
+                      background-color: #0C0C0E;
+                      color: #fff;
+                      cursor: pointer;
+                      margin: 0 5px;
+                      /* Добавляем небольшой отступ между кнопками */
+                      border: none;
+                      /* Убираем рамку кнопок */
+                      outline: none;
+                      /* Убираем контур при нажатии */
+                  }
+        
+                  /* Стилизация при наведении курсора на кнопки */
+                  .button:hover {
+                      background-color: #BB945F;
+                  }
+        
+                  /* Стилизация при нажатии на кнопки */
+                  .button:active {
+                      background-color: #BB945F;
+                  }
+
+        .favorites {
+            width: 1440px;
+            height: 1440px;
+        }
+
+
+        .favorites-title {
+            color: #0C0C0E;
+            font-family: Forum;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 2px;
+            text-transform: capitalize;
+            margin: 20px 640px;
+        }
+
+        .pick-favorites {
+            color: #000;
+                text-align: left;
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: normal;
+                margin-left: 20px;
+        }
+
+        .button-container {
+            margin-left: 15px;
+            margin-top: 45px;
+            color: #000;
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: normal;
+            
+        }
+
+                /* .button-container {
+                    display: flex;
+                    justify-content: center;
+                } */
+        
+                /* input[type="radio"] {
+                    display: none;
+                    /* Скрываем оригинальные радиокнопки */
+                } */
+        
+               label {
+                padding: 5px 10px;
+                border: 1px solid #ccc;
+                cursor: pointer;
+                                    /* Добавляем расстояние между кнопками в 30px (по 15px с каждой стороны) */
+                }
+        
+                /* Стилизация при выборе радиокнопки */
+                input[type="radio"]:checked+label {
+                    font-weight: bold;
+                }
+
+                                section {
+                                    background-color: #f2f2f2;
+                                    padding: 20px;
+                                    margin: 20px 0;
+                                }
+
+        .staff-section {
+            width: 550px;
+            height: 555px;
+            border: 1px solid #000;
+            background: #FFF;
+        }
+        .Staff-Picks {
+            color: #000;
+                font-family: Forum;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 40px;
+                letter-spacing: 2px;
+                text-transform: capitalize;
+                margin-top: 15px;
+                margin-left: 20px;
+        }
+
+        .about-line2 {
+            width: 60px;
+                height: 1px;
+                background: #BB945F;
+                flex-shrink: 0;
+                position: relative;
+                margin-top: 5px;
+               margin-left: 20px;
+        }
+
+              
