@@ -105,7 +105,7 @@ main {
 nav {
     background-color: #333;
     padding: 10px;
-}
+  }
 
 nav ul {
     list-style: none;
@@ -281,6 +281,12 @@ nav a:hover {
                                     margin: 20px 0;
                                 }
 
+        .staff-container {
+            display: flex;
+                flex-wrap: wrap;
+            gap: 5px 200px;
+        }
+
         .staff-section {
             width: 550px;
             height: 555px;
@@ -305,8 +311,202 @@ nav a:hover {
                 background: #BB945F;
                 flex-shrink: 0;
                 position: relative;
-                margin-top: 5px;
-               margin-left: 20px;
+                margin-bottom: 0;
         }
 
+        .staff-title {
+            color: #000;
+                font-family: Inter;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 40px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+        }
+
+        .staff-title-text {
+            color: #000;
+                font-family: Inter;
+                font-size: 15px;
+                font-weight: 700;
+                /* line-height: 40px; */
+                letter-spacing: 2px;
+                text-transform: capitalize;
+        }
+
+        .staff-text {
+            width: 355px;
+            color: #000;
+                font-family: Inter;
+                font-size: 15px;
+                 font-weight: 400;
+                line-height: 40px;
+                letter-spacing: 2px;
+                text-transform: capitalize;
+        }
+
+        .staff-buy {
+            background-color: #FFFFFF;
+                /* Основной цвет кнопки */
+                color: #0C0C0E;
+                /* Цвет текста на кнопке */
+                padding: 9px 27px;
+                /* Отступы вокруг текста кнопки */
+            border-radius: 2px;
+                border: 1px solid #0C0C0E;
+                cursor: pointer;
+                /* Меняем курсор на указатель при наведении на кнопку */
+            }
+            
+            /* Эффект при наведении на кнопку */
+            .staff-buy:hover {
+                background-color: #BB945F;
+                /* Цвет при наведении */
+            }
+       
+
+        .staff-image1 {
+            position: absolute;
+            top: 1988px;
+                /* Отступ сверху */
+                left: 460px;
+                width: 200px;
+            
+        }
+
+                .staff-image2 {
+                    position: absolute;
+                    top: 1988px;
+                    /* Отступ сверху */
+                    left: 1250px;
+                    width: 200px;
+        
+                }
+
+        .staff-image3 {
+            position: absolute;
+            top: 2630px;
+            left: 460px;
+            width: 200px;
+                
+        }
+
+         .staff-image4 {
+             position: absolute;
+             top: 2630px;
+             /* Отступ сверху */
+             left: 1250px;
+             width: 200px;
+    
+         }
+
+         .CoffeShop {
+            width: 1440px;
+                height: 840px;
+                
+            
+
+         }
+
+         .CoffeShop-title {
+            color: #0C0C0E;
+                font-family: Forum;
+                font-size: 40px;
+                font-weight: 400;
+                line-height: 40px;
+                letter-spacing: 2px;
+                text-transform: capitalize;
+                margin: 20px 605px;
+
+         }
+
+         .CoffeShop-text {
+            color: #000;
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 40px;
+                letter-spacing: 2px;
+                margin: 40px 20px;
+                text-align: center;
+                
+         }
+
+         .CoffeShop-container {
+            display: flex;
+            flex-wrap: wrap;
+                gap: 350px;
+
+         }
+   
+         .CoffeShop-section {
+        
+                  width: 480px;
+                  height: 520px;
+         }
+
+         .coffe-main {
+            color: #BB945F;
+                font-family: Forum;
+                font-size: 40px;
+                font-weight: 400;
+                line-height: 40px;
+                letter-spacing: 2px;
+                text-transform: capitalize;
+              
+         }
+
+                 /* Стили для списка */
+                 .coffe-list {
+                     list-style: none;
+                     /* Убираем маркеры списка */
+                     padding: 0;
+                 }
+        
+                 /* Стили для пунктов списка */
+                 .coffe-list li {
+                     display: flex;
+                     /* Используем flexbox для размещения элементов в строку */
+                     align-items: center;
+                     /* Выравниваем элементы по вертикали в центре */
+                     margin-bottom: 40px;
+                     /* Отступ между пунктами списка */
+                 }
+        
+                 /* Стили для названия */
+                 .list-item-name {
+                     flex: 1;
+                    color: #000;
+                        font-family: Inter;
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 40px;
+                        letter-spacing: 2px;
+                        text-transform: capitalize;
+                     /* Расширяем элемент, чтобы он занимал все доступное пространство */
+                 }
+        
+                 /* Стили для разделителя (линии) */
+                .list-item-divider {
+                width: 100px;
+                                  /* Ширина линии */
+                height: 1px;
+                                     /* Высота линии */
+                background-color: #BB945F;
+                                     /* Цвет линии */
+                margin: 0 60px;
+                                     /* Отступы слева и справа от линии */
+                }
+        
+                 /* Стили для цифр */
+               
+                 .list-item-number {
+                    color: #000;
+                        font-family: Forum;
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 40px;
+                        letter-spacing: 2px;
+                        text-transform: capitalize;
+                 }
               
