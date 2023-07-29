@@ -1,5 +1,6 @@
 
-body {
+html,body {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -606,7 +607,7 @@ nav a:hover {
     }
              .cards {
              width: 1440px;
-             height: 614px;
+             height: 1000px;
     
          }
     
@@ -829,5 +830,37 @@ nav a:hover {
                 background-color: #BB945F;
                                     /* Новый цвет кнопки при наведении */
                 }
+            .footer {
+                position: fixed;
+                    /* Футер будет закреплен внизу окна браузера */
+                    bottom: 0;
+                    /* Футер будет прижат к нижней границе окна браузера */
+                    width: 1440px;
+                    /* Ширина футера будет равна ширине окна браузера */
+                    height: 250px;
+                    /* Задаем высоту футера (можно изменить по своему усмотрению) */
+                    background-color: #f1f1f1;/
+                    display: flex;
+                        flex-wrap: wrap;
+                        gap: 20px;
+                }
+
+            .social-icon {
+                width: 24px;
+                    height: 24px;
+                    margin-right: 20px;
+                    display: inline-block;
+                 
+            }
             
+            .work {
+                color: #852525;
+                   text-align: right;
+                    font-family: Inter;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 20px;
+                   
+                    
+            }
                 
