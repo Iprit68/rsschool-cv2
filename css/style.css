@@ -1,5 +1,5 @@
-
-html,body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -8,12 +8,12 @@ html,body {
 header {
     height: 600px;
     width: 1440px;
-background-image: url(../img/Welcome.png);
-    color: #fff;
+    background-image: url(../img/Welcome.png);
+    color: #FFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   }
+}
 
 .main-container {
     position: relative;
@@ -30,7 +30,7 @@ background-image: url(../img/Welcome.png);
     font-weight: 400;
     line-height: 50px;
 }
- 
+
 
 
 img {
@@ -45,7 +45,7 @@ img {
     font-family: Forum;
     font-size: 30px;
     font-weight: 400;
-    letter-spacing: 0.6px; 
+    letter-spacing: 0.6px;
     padding-left: 20px;
     padding-bottom: 20px;
 }
@@ -65,7 +65,7 @@ img {
     right: 88px;
     background-color: #0e030300;
     padding: 10px;
-    }
+}
 
 .topnav li {
     display: inline-block;
@@ -75,7 +75,7 @@ img {
     font-size: 20px;
     font-weight: 400;
     line-height: 50px;
-    }
+}
 
 
 .topnav a:hover {
@@ -106,7 +106,7 @@ main {
 nav {
     background-color: #333;
     padding: 10px;
-  }
+}
 
 nav ul {
     list-style: none;
@@ -135,732 +135,725 @@ nav a:hover {
     margin: 0 auto;
 }
 
-.about-title{
+.about-title {
     color: #0C0C0E;
-        font-family: Forum;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 40px;
-        letter-spacing: 2px;
-        text-transform: capitalize;
-        margin: 20px 667px;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 20px 667px;
 }
 
 .about-line {
     width: 50px;
-        height: 1px;
-        background-color: black;
-        flex-shrink: 0;
-        position: relative;
-        margin-left: 695px;
-        margin-bottom: 20px;
+    height: 1px;
+    background-color: black;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 695px;
+    margin-bottom: 20px;
 }
 
 .about-text {
     color: #000;
-        text-align: center;
-        font-family: Inter;
-        font-size: 20px;
-        line-height: 40px;
-        margin-top: 40px;
-    }
-      .image-container {
-            display: flex;
-        }
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 40px;
+}
+
+.image-container {
+    display: flex;
+}
+
+.about-image {
+    width: 450px;
+    height: 550px;
+    margin-right: 25px;
+    margin-left: 20px;
+
+}
+
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.button {
+    width: 26px;
+    height: 26px;
+    border-radius: 16px;
+    background-color: #0C0C0E;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+    border: none;
+    outline: none;
+
+}
+
+.button:hover {
+    background-color: #BB945F;
+}
+
+.button:active {
+    background-color: #BB945F;
+}
+
+.favorites {
+    width: 1440px;
+    height: 1440px;
+}
+
+
+.favorites-title {
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 20px 640px;
+}
+
+.pick-favorites {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.button-container {
+    margin-left: 15px;
+    margin-top: 45px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+input[type="radio"]:checked+label {
+    font-weight: bold;
+}
+
+section {
+    background-color: #FFF;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.staff-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 200px;
+}
+
+.staff-section {
+    width: 550px;
+    height: 555px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.Staff-Picks {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.about-line2 {
+    width: 60px;
+    height: 1px;
+    background: #BB945F;
+    flex-shrink: 0;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.staff-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.staff-title-text {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.staff-text {
+    width: 355px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.staff-buy {
+    background-color: #FFFFFF;
+    color: #0C0C0E;
+    padding: 9px 27px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    cursor: pointer;
+
+}
+
+
+.staff-buy:hover {
+    background-color: #BB945F;
     
-        .about-image{
-            width: 450px;
-            height: 550px;
-            margin-right: 25px;
-            margin-left: 20px;
-            /* Добавляем небольшой отступ между картинками */
-        }
-    
-        Убираем отступ после последней картинки
-        .image:last-child {
-            margin-right: 0;
-        } 
-
-         .buttons-container {
-                      display: flex;
-                      justify-content: center;
-                      margin-top: 40px;
-          }
-        
-                  .button {
-                      width: 26px;
-                      /* Двойной радиус для диаметра */
-                      height: 26px;
-                      /* Двойной радиус для диаметра */
-                      border-radius: 16px;
-                      /* Радиус круглых кнопок */
-                      background-color: #0C0C0E;
-                      color: #fff;
-                      cursor: pointer;
-                      margin: 0 5px;
-                      /* Добавляем небольшой отступ между кнопками */
-                      border: none;
-                      /* Убираем рамку кнопок */
-                      outline: none;
-                      /* Убираем контур при нажатии */
-                  }
-        
-                  /* Стилизация при наведении курсора на кнопки */
-                  .button:hover {
-                      background-color: #BB945F;
-                  }
-        
-                  /* Стилизация при нажатии на кнопки */
-                  .button:active {
-                      background-color: #BB945F;
-                  }
-
-        .favorites {
-            width: 1440px;
-            height: 1440px;
-        }
+}
 
 
-        .favorites-title {
-            color: #0C0C0E;
-            font-family: Forum;
-            font-size: 40px;
-            font-weight: 400;
-            line-height: 40px;
-            letter-spacing: 2px;
-            text-transform: capitalize;
-            margin: 20px 640px;
-        }
+.staff-image1 {
+    position: absolute;
+    top: 1988px;
+    left: 460px;
+    width: 200px;
 
-        .pick-favorites {
-            color: #000;
-                text-align: left;
-                font-family: Inter;
-                font-size: 20px;
-                font-weight: 700;
-                line-height: normal;
-                margin-left: 20px;
-        }
+}
 
-        .button-container {
-            margin-left: 15px;
-            margin-top: 45px;
-            color: #000;
-                font-family: Inter;
-                font-size: 20px;
-                font-weight: 400;
-                line-height: normal;
-            
-        }
+.staff-image2 {
+    position: absolute;
+    top: 1988px;
+    left: 1250px;
+    width: 200px;
 
-                /* .button-container {
-                    display: flex;
-                    justify-content: center;
-                } */
-        
-                /* input[type="radio"] {
-                    display: none;
-                    /* Скрываем оригинальные радиокнопки */
-                } */
-        
-               label {
-                padding: 5px 10px;
-                border: 1px solid #ccc;
-                cursor: pointer;
-                                    /* Добавляем расстояние между кнопками в 30px (по 15px с каждой стороны) */
-                }
-        
-                /* Стилизация при выборе радиокнопки */
-                input[type="radio"]:checked+label {
-                    font-weight: bold;
-                }
+}
 
-                                section {
-                                    background-color: #f2f2f2;
-                                    padding: 20px;
-                                    margin: 20px 0;
-                                }
+.staff-image3 {
+    position: absolute;
+    top: 2630px;
+    left: 460px;
+    width: 200px;
 
-        .staff-container {
-            display: flex;
-                flex-wrap: wrap;
-            gap: 5px 200px;
-        }
+}
 
-        .staff-section {
-            width: 550px;
-            height: 555px;
-            border: 1px solid #000;
-            background: #FFF;
-        }
-        .Staff-Picks {
-            color: #000;
-                font-family: Forum;
-                font-size: 20px;
-                font-weight: 400;
-                line-height: 40px;
-                letter-spacing: 2px;
-                text-transform: capitalize;
-                margin-top: 15px;
-                margin-left: 20px;
-        }
+.staff-image4 {
+    position: absolute;
+    top: 2630px;
+    left: 1250px;
+    width: 200px;
 
-        .about-line2 {
-            width: 60px;
-                height: 1px;
-                background: #BB945F;
-                flex-shrink: 0;
-                position: relative;
-                margin-bottom: 0;
-        }
+}
 
-        .staff-title {
-            color: #000;
-                font-family: Inter;
-                font-size: 15px;
-                font-weight: 700;
-                line-height: 40px;
-                letter-spacing: 2px;
-                text-transform: uppercase;
-        }
+.CoffeShop {
+    width: 1440px;
+    height: 840px;
 
-        .staff-title-text {
-            color: #000;
-                font-family: Inter;
-                font-size: 15px;
-                font-weight: 700;
-                /* line-height: 40px; */
-                letter-spacing: 2px;
-                text-transform: capitalize;
-        }
+}
 
-        .staff-text {
-            width: 355px;
-            color: #000;
-                font-family: Inter;
-                font-size: 15px;
-                 font-weight: 400;
-                line-height: 40px;
-                letter-spacing: 2px;
-                text-transform: capitalize;
-        }
+.CoffeShop-title {
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 20px 605px;
 
-        .staff-buy {
-            background-color: #FFFFFF;
-                /* Основной цвет кнопки */
-                color: #0C0C0E;
-                /* Цвет текста на кнопке */
-                padding: 9px 27px;
-                /* Отступы вокруг текста кнопки */
-            border-radius: 2px;
-                border: 1px solid #0C0C0E;
-                cursor: pointer;
-                /* Меняем курсор на указатель при наведении на кнопку */
-            }
-            
-            /* Эффект при наведении на кнопку */
-            .staff-buy:hover {
-                background-color: #BB945F;
-                /* Цвет при наведении */
-            }
-       
+}
 
-        .staff-image1 {
-            position: absolute;
-            top: 1988px;
-                /* Отступ сверху */
-                left: 460px;
-                width: 200px;
-            
-        }
+.CoffeShop-text {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 40px 20px;
+    text-align: center;
 
-                .staff-image2 {
-                    position: absolute;
-                    top: 1988px;
-                    /* Отступ сверху */
-                    left: 1250px;
-                    width: 200px;
-        
-                }
+}
 
-        .staff-image3 {
-            position: absolute;
-            top: 2630px;
-            left: 460px;
-            width: 200px;
-                
-        }
+.CoffeShop-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 350px;
 
-         .staff-image4 {
-             position: absolute;
-             top: 2630px;
-             /* Отступ сверху */
-             left: 1250px;
-             width: 200px;
-    
-         }
+}
 
-         .CoffeShop {
-            width: 1440px;
-                height: 840px;
-                
-            
+.CoffeShop-section {
 
-         }
+    width: 480px;
+    height: 520px;
+}
 
-         .CoffeShop-title {
-            color: #0C0C0E;
-                font-family: Forum;
-                font-size: 40px;
-                font-weight: 400;
-                line-height: 40px;
-                letter-spacing: 2px;
-                text-transform: capitalize;
-                margin: 20px 605px;
+.coffe-main {
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
 
-         }
+}
 
-         .CoffeShop-text {
-            color: #000;
-                font-family: Inter;
-                font-size: 20px;
-                font-weight: 400;
-                line-height: 40px;
-                letter-spacing: 2px;
-                margin: 40px 20px;
-                text-align: center;
-                
-         }
+.coffe-list {
+    list-style: none;
+    padding: 0;
+}
 
-         .CoffeShop-container {
-            display: flex;
-            flex-wrap: wrap;
-                gap: 350px;
+.coffe-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
 
-         }
+}
+
+.list-item-name {
+    flex: 1;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
    
-         .CoffeShop-section {
-        
-                  width: 480px;
-                  height: 520px;
-         }
+}
 
-         .coffe-main {
-            color: #BB945F;
-                font-family: Forum;
-                font-size: 40px;
-                font-weight: 400;
-                line-height: 40px;
-                letter-spacing: 2px;
-                text-transform: capitalize;
-              
-         }
 
-                 /* Стили для списка */
-                 .coffe-list {
-                     list-style: none;
-                     /* Убираем маркеры списка */
-                     padding: 0;
-                 }
-        
-                 /* Стили для пунктов списка */
-                 .coffe-list li {
-                     display: flex;
-                     /* Используем flexbox для размещения элементов в строку */
-                     align-items: center;
-                     /* Выравниваем элементы по вертикали в центре */
-                     margin-bottom: 40px;
-                     /* Отступ между пунктами списка */
-                 }
-        
-                 /* Стили для названия */
-                 .list-item-name {
-                     flex: 1;
-                    color: #000;
-                        font-family: Inter;
-                        font-size: 20px;
-                        font-weight: 400;
-                        line-height: 40px;
-                        letter-spacing: 2px;
-                        text-transform: capitalize;
-                     /* Расширяем элемент, чтобы он занимал все доступное пространство */
-                 }
-        
-                 /* Стили для разделителя (линии) */
-                .list-item-divider {
-                width: 100px;
-                                  /* Ширина линии */
-                height: 1px;
-                                     /* Высота линии */
-                background-color: #BB945F;
-                                     /* Цвет линии */
-                margin: 0 60px;
-                                     /* Отступы слева и справа от линии */
-                }
-        
-                 /* Стили для цифр */
-               
-                 .list-item-number {
-                    color: #000;
-                        font-family: Forum;
-                        font-size: 20px;
-                        font-weight: 400;
-                        line-height: 40px;
-                        letter-spacing: 2px;
-                        text-transform: capitalize;
-                 }
-    .contacts {
+.list-item-divider {
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    margin: 0 60px;
+
+}
+
+
+.list-item-number {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.contacts {
     width: 1440px;
     height: 575px;
 
-    }
+}
 
-    .contacts-title {
-        color: #0C0C0E;
-        font-family: Forum;
-        font-size: 40px;
-        font-weight: 400;
-        line-height: 40px;
-        letter-spacing: 2px;
-        text-transform: capitalize;
-        margin: 20px 580px;
-    }
+.contacts-title {
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 20px 580px;
+}
 
-    .contacts-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
+.contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-    .contacts-section {
-        width: 650px;
-        height: 414px;
-    }
+.contacts-section {
+    width: 650px;
+    height: 414px;
+}
 
-    .contacts-item {
-        color: #000;
-            font-family: Inter;
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 40px;
-            letter-spacing: 2px;
-            text-transform: capitalize;
-    }
-
-    .call-number {
+.contacts-item {
     color: #000;
-               font-family: Inter;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 40px;
-        letter-spacing: 2px;
-        text-transform: capitalize;
-        margin-top: 20px;
-    }
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
 
-         . .contacts {
+.call-number {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+. .contacts {
     width: 1440px;
     height: 575px;
 
-    }
+}
 
-    .contacts-title {
-        color: #0C0C0E;
-        font-family: Forum;
-        font-size: 40px;
-        font-weight: 400;
-        line-height: 40px;
-        letter-spacing: 2px;
-        text-transform: capitalize;
-        margin: 20px 580px;
-    }
+.contacts-title {
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 20px 580px;
+}
 
-    .contacts-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
+.contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-    .contacts-section {
-        width: 650px;
-        height: 414px;
-    }
+.contacts-section {
+    width: 650px;
+    height: 414px;
+}
 
-    .contacts-item {
-        color: #000;
-            font-family: Inter;
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 40px;
-            letter-spacing: 2px;
-            text-transform: capitalize;
-    }
-
-    .call-number {
+.contacts-item {
     color: #000;
-               font-family: Inter;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 40px;
-        letter-spacing: 2px;
-        text-transform: capitalize;
-        margin-top: 20px;
-    }
-             .cards {
-             width: 1440px;
-             height: 1000px;
-    
-         }
-    
-         .cards-title {
-             color: #0C0C0E;
-             font-family: Forum;
-             font-size: 40px;
-             font-weight: 400;
-             line-height: 40px;
-             letter-spacing: 2px;
-             text-transform: capitalize;
-             margin: 20px 520px;
-         }
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
 
-         .cards-title-item {
-            color: #000;
-                font-family: Inter;
-                font-size: 30px;
-                font-weight: 400;
-                line-height: normal;
-                letter-spacing: 0.6px;
-              margin-left: 158px;
-              margin-top: 121px;
-         }
+.call-number {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
 
-         .cards-container {
-             display: flex;
-             flex-wrap: wrap;
-                         gap: 200px;
-         }
-    
-         .cards-section {
-             width: 650px;
-             height: 414px;
-                     
-         }
+.cards {
+    width: 1440px;
+    height: 1000px;
 
-         .card-instruction {
-            width: 650px;
-            height: 414px;
-           }
+}
 
-          .cards-text1 {
-            max-width: 456px;
-             text-align: right;
-            color: #000;
-            margin: 23px;
-                font-family: Forum;
-                font-size: 30px;
-                font-weight: 400;
-                 letter-spacing: 0.6px;
-          }
-         .cards-text {
-            max-width: 456px;
-            color: #000;
-            margin: 23px;
-                text-align: right;
-                font-family: Inter;
-                font-size: 20px;
-                font-weight: 400;
-                line-height: 40px;
-                letter-spacing: 0.4px;
-         }
-    
-         .cards-item {
-             color: #000;
-             font-family: Inter;
-             font-size: 20px;
-             font-weight: 700;
-             line-height: 40px;
-             letter-spacing: 2px;
-             text-transform: capitalize;
-         }
-    
-         .call-number {
-             color: #000;
-             font-family: Inter;
-             font-size: 20px;
-             font-weight: 400;
-             line-height: 40px;
-             letter-spacing: 2px;
-             text-transform: capitalize;
-             margin-top: 20px;
-         }
+.cards-title {
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 20px 520px;
+}
+
+.cards-title-item {
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-left: 158px;
+    margin-top: 121px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+
+.cards-section {
+    width: 650px;
+    height: 414px;
+
+}
+
+.card-instruction {
+    width: 650px;
+    height: 414px;
+}
+
+.cards-text1 {
+    max-width: 456px;
+    text-align: right;
+    color: #000;
+    margin: 23px;
+    font-family: Forum;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+}
+
+.cards-text {
+    max-width: 456px;
+    color: #000;
+    margin: 23px;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+}
+
+.cards-item {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.call-number {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
 
 
-           /* Стили для карточки */
-            .card-form {
-                width: 600px;
-                height: 386px;
-                border: 3px solid #BB945F;
-                background: #FFF;
+.card-form {
+    width: 600px;
+    height: 386px;
+    border: 3px solid #BB945F;
+    background: #FFF;
 
-            }
-           .card-visa {
-            width: 560px;
-                height: 252px;
-                border: none;
-                background: #BB945F;
-                margin-left: 20px;
-                margin-top: 20px;
-           }
-    
-           /* Стили для заголовка */
-           .card h2 {
-               margin-bottom: 20px;
-               text-align: center;
-           }
-    
-           /* Стили для формы */
-           .card form {
-               display: flex;
-               flex-direction: column;
-           }
-    
-           /* Стили для полей ввода */
-           .card label {
-               font-weight: bold;
-           }
-    
-           .card input[type="text"] {
-                         
-                padding: 10px;
-               margin-bottom: 10px;
-               border: 1px solid #ccc;
-               border-radius: 5px;
-           }
-    
-           .card input[type="submit"] {
-               background-color: #007bff;
-               color: #fff;
-               border: none;
-               border-radius: 5px;
-               padding: 10px 20px;
-               cursor: pointer;
-           }
-    
-           .card input[type="submit"]:hover {
-               background-color: #0056b3;
-           }
+}
 
-           .brooklin-name {
-            color: #000;
-                font-family: Forum;
-                font-size: 30px;
-                font-weight: 400;
-                line-height: 50px;
-                letter-spacing: 0.6px;
-                margin: 20px;
-           }
+.card-visa {
+    width: 560px;
+    height: 252px;
+    border: none;
+    background: #BB945F;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
-           .line-title {
-                width: 520px;
-                    height: 66px;
-                    /* flex-shrink: 0; */
-                    border-radius: 10px;
-                     background: #FFF;
-                     margin-top: 15px;
-                     margin-left: 20px;
-                    color: #8E8E8E;
-                        font-family: Forum;
-                        font-size: 30px;
-                        font-weight: 400;
-                        line-height: 50px;
-                       letter-spacing: 0.6px;
-           }
 
-           .button-card {
-                    width: 242px;
-                    height: 44px;
-                    background-color: #007bff;
-                    color: #0C0C0E;
-                    border: 3px solid #BB945F;
-                    background: #FFF;
-                    cursor: pointer;
-                    /* Добавляем переход, чтобы плавно менять цвет кнопки */
-                    transition: background-color 0.3s ease;
+.card h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
 
-                        margin-top: 20px;
-                        margin-left: 160px;
-                        text-align: center;
-                        font-family: Inter;
-                        font-size: 20px;
-                        font-weight: 700;
-                        line-height: normal;
-                        letter-spacing: 1px;
-                }
-            
-                /* Стили для интерактивной кнопки при наведении */
-                .interactive-button:hover {
-                    background-color: #0056b3;
-                    /* Новый цвет кнопки при наведении */
-                }
 
-                                /* Стили для контейнера с кнопками */
-                .button-wrapper {
-                    display: flex;
-                                 /* Используем flexbox для размещения кнопок в одну строку */
-                    gap: 20px;
-                    padding-left: 320px;
+.card form {
+    display: flex;
+    flex-direction: column;
+}
 
-                                                      /* Отступ между кнопками */
-                    }
-                
-                                /* Стили для интерактивной кнопки */
-                .interactive-button {
-                width: 75px;
-                height: 30px;
-                background-color: #fff;
-                color: #0C0C0E;
-                border-radius: 2px;
-                    border: 1px solid #0C0C0E;
-                cursor: pointer;
-                                    /* Добавляем переход, чтобы плавно менять цвет кнопки */
-                transition: background-color 0.3s ease;
-                }
-                
-                                /* Стили для интерактивной кнопки при наведении */
-                .interactive-button:hover {
-                background-color: #BB945F;
-                                    /* Новый цвет кнопки при наведении */
-                }
-            .footer {
-                position: fixed;
-                    /* Футер будет закреплен внизу окна браузера */
-                    bottom: 0;
-                    /* Футер будет прижат к нижней границе окна браузера */
-                    width: 1440px;
-                    /* Ширина футера будет равна ширине окна браузера */
-                    height: 250px;
-                    /* Задаем высоту футера (можно изменить по своему усмотрению) */
-                    background-color: #f1f1f1;/
-                    display: flex;
-                        flex-wrap: wrap;
-                        gap: 20px;
-                }
 
-            .social-icon {
-                width: 24px;
-                    height: 24px;
-                    margin-right: 20px;
-                    display: inline-block;
-                 
-            }
-            
-            .work {
-                color: #852525;
-                   text-align: right;
-                    font-family: Inter;
-                    font-size: 15px;
-                    font-weight: 400;
-                    line-height: 20px;
-                   
-                    
-            }
-                
+.card label {
+    font-weight: bold;
+}
+
+.card input[type="text"] {
+
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.card input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.brooklin-name {
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    margin: 20px;
+}
+
+.line-title {
+    width: 520px;
+    height: 66px;
+    /* flex-shrink: 0; */
+    border-radius: 10px;
+    background: #FFF;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+}
+
+.button-card {
+    width: 242px;
+    height: 44px;
+    background-color: #007bff;
+    color: #0C0C0E;
+    border: 3px solid #BB945F;
+    background: #FFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-left: 160px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+
+.interactive-button:hover {
+    background-color: #0056b3;
+   
+}
+
+
+.button-wrapper {
+    display: flex;
+    gap: 20px;
+    padding-left: 320px;
+   
+}
+
+
+.interactive-button {
+    width: 75px;
+    height: 30px;
+    background-color: #fff;
+    color: #0C0C0E;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.interactive-button:hover {
+    background-color: #BB945F;
+ 
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 1450px;
+    height: 250px;
+    background-color: #0C0C0E;/
+}
+
+.footer-conteiner {
+    display: flex;
+    gap: 1000px;
+}
+
+.conteiner-footer {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+
+    padding: 20px;
+
+}
+
+.social-icon a {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+   
+    margin-right: 10px;
+   
+}
+
+.social-icon img {
+    vertical-align: middle;
+}
+
+
+.work {
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+
+
+}
+
+.line {
+    height: 1px;
+    background-color: #FFF;
+    width: 1400px;
+    margin-left: 20px;
+    margin-top: 0;
+
+}
+
+.text-footer-container {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+
+    display: flex;
+    gap: 550px;
+    text-align: justify;
+
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
