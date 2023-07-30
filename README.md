@@ -1,3 +1,3 @@
 
     
-    https://iprit68.github.io/rsschool-cv2/library
+    https://iprit68.github.io/rsschool-cv2/index.html
