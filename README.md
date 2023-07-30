@@ -1,3 +1,3 @@
 
    
-    https://iprit68.github.io/rsschool-cv2/
+https://rolling-scopes-school.github.io/iprit68-JSFEPRESCHOOL2023Q2/library/
